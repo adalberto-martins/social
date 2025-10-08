@@ -28,7 +28,7 @@ section#telefone {
     left:50%;
     transform:translate(-50%, -50%);
 
-    height: 669px;
+    height: 675px;
     width: 311px;
     background: url(../imagens/frame_celular_311px_transparente.png) no-repeat;
 }

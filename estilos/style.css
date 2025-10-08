@@ -19,17 +19,23 @@ body {
 }
 
 main {
+    height: 100vh;  
+}
+
+div#container {
     height: 100vh;
-    position: relative;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section#telefone {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    height: 620px;
+    height: 669px;
     width: 309px;
     background-color: blue;
     background: url(../imagens/frame_celular_311px_transparente.png) no-repeat;
@@ -39,12 +45,10 @@ section#telefone {
 iframe#tela {
     position: relative;
     top: 37px;
-    left: 27px;
-    width: 263px;
-    height: 581px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-
+    left: 28px;
+    width: 264px;
+    height: 607px;
+    border-radius: 23px 15px;    
 }
 
 section#redes-sociais {

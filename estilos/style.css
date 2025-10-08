@@ -42,7 +42,8 @@ iframe#tela {
     left: 27px;
     width: 263px;
     height: 581px;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 
 }
 

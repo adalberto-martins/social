@@ -15,7 +15,8 @@ html, body {
 body {
     background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    overflow-y: hidden;    
 }
 
 main {
@@ -36,10 +37,8 @@ div#container {
 
 section#telefone {
     height: 669px;
-    width: 309px;
-    background-color: blue;
-    background: url(../imagens/frame_celular_311px_transparente.png) no-repeat;
-    
+    width: 311px;
+    background: url(../imagens/frame_celular_311px_transparente.png) no-repeat;    
 }
 
 iframe#tela {

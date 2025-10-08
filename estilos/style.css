@@ -32,3 +32,14 @@ section#telefone {
     width: 311px;
     background: url(../imagens/frame_celular_311px_transparente.png) no-repeat;
 }
+
+iframe#tela {
+    position: relative;
+    top: 39px;
+    left: 22px;
+    width: 276px;
+    height: 676px;
+
+    border-radius: 22px;
+
+}

@@ -69,3 +69,40 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
     transition: transform .3s, border 1s;
 }
+
+
+@media screen and (max-width: 700px) {
+       
+    main {
+        display: flex;
+        flex-direction: column; /* Alinha o conteúdo verticalmente */
+        align-items: center;    /* Centraliza os itens na horizontal */
+        justify-content: center; /* Centraliza os itens na vertical */
+        height: auto; /* Deixa a altura se ajustar ao conteúdo */
+        padding-top: 20px; /* Adiciona um espaço no topo */
+    }
+
+    /* 2. Reposicionar o contêiner do telefone */
+    div#container {
+        /* Remover a posição absoluta para que ele siga o fluxo do Flexbox */
+        position: static; 
+        width: auto;
+        height: auto;
+        /* As propriedades Flexbox do #container não são mais necessárias aqui, mas você pode mantê-las se quiser um controle extra */
+    }
+
+    /* 3. Ajustar a barra de ícones para ficar por baixo do telefone */
+    section#redes-sociais {
+        width: 100%; /* Ocupa a largura total */
+        position: static; /* Remove a posição absoluta */
+        margin-top: 20px; /* Adiciona espaço entre o telefone e os ícones */
+        /* O Flexbox do 'main' garantirá a centralização horizontal */
+    }
+
+    /* 4. Ajustar os ícones dentro da barra social para ficarem lado a lado (opcional) */
+    section#redes-sociais a {
+        display: inline-block;
+        width: 16%; /* Ajuste para caberem vários na linha */
+        margin: 5px;
+    }
+}
